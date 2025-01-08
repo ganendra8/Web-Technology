@@ -1,6 +1,6 @@
 .outer{
     width: 100px;
-    height: 100px;
+    height: 40px;
     border: 10px solid rgb(27, 1, 1);
     padding: 10px;
     border-radius: 80px;
@@ -20,4 +20,92 @@
     border-radius: 50px;
     position: absolute;
     top: 20px;
+}
+
+
+
+/*INDEX PAGE*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    padding-bottom: 32%;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(27, 1, 1);
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(224, 80%, 63%);
+}
+
+.navbars{
+    width: 40%;
+    height: auto;
+}
+
+.navbars{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbars .links{
+    text-decoration: none;
+    color: hsl(0, 0%, 1%);
+    padding: 10px;
+}
+
+.navbars .links:hover{
+    background-color: hsl(224, 80%, 60%);
+    padding: 18px 10px;
+    transition: 0.2s ease-in;
+}
+
+.navbar li{
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.logo img{
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.footerbox{
+    background-color: hsl(224, 78%, 61%);
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer_links{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    list-style-type: none;
+    gap: 5px;
+    color: hsl(0, 0%, 1%);
+}
+
+.footer_link{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.icons{
+    font-size: 30px;
+    padding-top: 55px;
 }
