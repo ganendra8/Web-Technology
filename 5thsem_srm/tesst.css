@@ -39,3 +39,16 @@ div.test1{
 div.test2{
     order: 1;
 }
+
+
+@media (max-width: 412px){
+    div.test{
+        display: none;
+    }
+    div.test1{
+        display: none;
+    }
+    div.test2{
+        display: none;
+    }
+}

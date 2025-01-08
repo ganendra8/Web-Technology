@@ -1,0 +1,58 @@
+.a{
+    background-color: hsl(0, 71%, 42%);
+    height: 100px;
+    width: 500px;
+    display: block;
+    order: 1;
+}
+
+.b{
+    background-color: hsl(110, 68%, 35%);
+    height: 100px;
+    width: 500px;
+    display: block;
+    order: 2;
+}
+
+.c{
+    background-color: hsl(240, 68%, 43%);
+    height: 100px;
+    width: 500px;
+    display: block;
+    order: 3;
+}
+
+.main{
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.work-in-progress{
+    display: none;
+    width: 50%;
+}
+
+@media(max-width:421px) {
+    .a, .b, .c{
+        display: none;
+    }
+
+    .work-in-progress{
+        display: block;
+        transition: all 0.3s ease;
+    }
+}
