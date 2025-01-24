@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+    <style>
+        .outer{
+            border: 1px solid black;
+            max-width: 200px;
+            height: 20vh;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container inner">
+        <div class="container outer">
+            <a id="lik" href="#">Google</a>
+        </div>
+    </div>
+
+
+    <script>
+        
+        
+        //document.getElementById("outer");
+        // document.querySelector("#id_name");
+
+        // document.getElementById("lik").setAttribute('href','https://suyogranamagar.com.np/index.html#');
+        // document.getElementsByTagName('a')[0].innerHTML = 'suyog';
+        // document.getElementsByTagName('div')[0].classList.add('js');
+        // document.getElementsByTagName('div')[0].classList;
+        // document.getElementsByTagName("a")[0].getAttribute('href');
+
+
+        const header = document.createElement('h1');
+        header.innerText = 'Greeting';
+        document.querySelector(".inner").append(header);
+        
+    </script>
+</body>
+</html>
