@@ -18,7 +18,7 @@ function updateCartDropdown(){
     if(cartItems.length === 0){
         cartDropdown.innerHTML = "<p> Your cart is empty </p>";
     } else {
-        cartDropdown.innerHTML = "<ul>" + cartItems.map(item =>`<li style="list-style-type:none;">${item}</li>`).join("") + "</ul>";
+        cartDropdown.innerHTML = "<ul>" + cartItems.map(item =>`<li><img src="product-watch.png" alt="product" />${item}</li>`).join("") + "</ul>";
     }
 
 }
